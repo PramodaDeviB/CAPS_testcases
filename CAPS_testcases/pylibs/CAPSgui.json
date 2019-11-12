@@ -1,0 +1,190 @@
+{
+"1":
+{
+	  "Customer": "Bharat Sanchar Nigam Limited, 457799, IN",
+	  "Product":"1000 ASAM (Advanced Services Access Manager), 833-022515_00",
+	  "Classification":"Non-Sensitive Data",
+	  "Retention_days":"1",
+	  "Description":"test",
+	  "Purpose":"test",
+	  "Ticket#":"Null",
+	  "Application":"CARES",
+	  "Service class":"CARE",
+	  "Email list":"Null"
+	 
+},
+"2":{
+	  "Customer": "Bharti Airtel Limited MN ? KAR, 381962, IN",
+	  "Product":"1000 ASAM (Advanced Services Access Manager), 833-022515_00",
+	  "Classification":"Non-Sensitive Data",
+	  "Retention_days":"1",
+	  "Description":"test",
+	  "Purpose":"test",
+	  "Ticket#":"Null",
+	  "Application":"CARES",
+	  "Service class":"Internal R&D",
+	  "Email list":"Null"
+	 
+},
+"3":{     "Customer": "Aircel - Delhi, 46011, IN",
+	  "Product":"1000 ASAM (Advanced Services Access Manager), 833-022515_00",
+	  "Classification":"Non-Sensitive Data",
+	  "Retention_days":"1",
+	  "Description":"test",
+	  "Purpose":"test",
+	  "Ticket#":"Null",
+	  "Application":"CARES",
+	  "Service class":"CARE",
+	  "Email list":"Null"
+	 
+}, 
+"4":{
+	  "Customer": "Affinity Credit Union (ALU), 438024, CA",
+	  "Product":"1000 ASAM (Advanced Services Access Manager), 833-022515_00",
+	  "Classification":"Non-Sensitive Data",
+	  "Retention_days":"1",
+	  "Description":"test",
+	  "Purpose":"test",
+	  "Ticket#":"Null",
+	  "Application":"CARES",
+	  "Service class":"Internal R&D",
+	  "Email list":"Null"
+	 },
+"5":{ 
+"Customer":"ALCATEL-LUCENT SINGAPORE (ALU), 411920, SG",
+	  
+	  "Product":"1000 ASAM (Advanced Services Access Manager), 833-022515_00",
+	  "Classification":"Non-Sensitive Data",
+	  "Retention_days":"1",
+	  "Description":"test",
+	  "Purpose":"test",
+	  "Ticket#":"Null",
+	  "Application":"CARES",
+	  "Service class":"CARE",
+	  "Email list":"Null"    
+}, 
+"6":{     
+	  "Customer": "0000216002, 469657, FR",
+  "Product":"I-SDK for NetAct",
+  "Classification":"Sensitive Data",
+  "Retention_days":"1",
+  "Description":"test",
+  "Purpose":"test",
+  "Application":"REFRA",
+  "Ticket#":"123456",
+  "Refra datatype codes":"CM",
+  "Service class":"CARE",
+  "Email list":"Null"
+  
+},
+"7":{     "Customer":"101 GLOBAL Co.,Ltd., 92041,TH",
+	  
+	  "Product":"1000 ASAM (Advanced Services Access Manager), 833-022515_00",
+	  "Classification":"Non-Sensitive Data",
+	  "Retention_days":"1",
+	  "Description":"test",
+	  "Purpose":"test",
+	  "Ticket#":"Null",
+	  "Application":"CARES",
+	  "Service class":"Network Implementation",
+	  "Email list":"Null"
+}, 
+"8":{     "Customer":"A+ Technology Solutions, Inc. (ALU), 412001, US",
+	  
+	  "Product":"1000 ASAM (Advanced Services Access Manager), 833-022515_00022515_00",
+	  "Classification":"Non-Sensitive Data",
+	  "Retention_days":"1",
+	  "Description":"test",
+	  "Purpose":"test",
+	  "Ticket#":"Null",
+	  "Application":"CARES",
+	  "Service class":"Network Implementation",
+	  "Email list":"Null"
+}, 
+"9":	{ 	"Customer":"2Wire Inc (ALU), 434383, US",
+		
+		"Product":"1000 MM E10 (Multiservice Multimedia), 833-008636_00",
+		"Classification":"Non-Sensitive Data",
+		"Retention_days":"1",
+		"Description":"test",
+		"Purpose":"test",
+		  "Ticket#":"Null",
+		  "Application":"CARES",
+		  "Service class":"NetworkPlanning and optimization"
+}, 
+"10":		{ "Customer":"3C Information Solutions (ALU), 411627, CA",
+		  
+		  "Product":"1000 MM E10 (Multiservice Multimedia), 833-008636_00",
+		  "Classification":"Non-Sensitive Data",
+		  "Retention_days":"1",
+		  "Description":"test",
+		  "Purpose":"test",
+		  "Ticket#":"Null",
+		  "Application":"CARES",
+		  "Service class":"CARE",
+		  "Email list":"Null"
+} ,
+"11":{         "Customer":"A2A Smart City S.p.A., 467476, IT",
+		  
+		  "Product":"1000 ASAM (Advanced Services Access Manager), 833-022515_00",
+		  "Classification":"Non-Sensitive Data",
+		  "Retention_days":"1",
+		  "Description":"test",
+		  "Purpose":"test",
+		  "Ticket#":"Null",
+		  "Application":"CARES",
+		  "Service class":"Network Implementation",
+		  "Email list":"Null"
+},
+"12":{         "Customer":"Beijing Dejiahenghuakeji, 223660, CN",
+		  "Product":"1000 LGW (Line Gateway), 833-008253_00",
+		  "Classification":"Non-Sensitive Data",
+		  "Retention_days":"1",
+		  "Description":"test",
+		  "Purpose":"test",
+		  "Ticket#":"Null",
+		  "Application":"CARES",
+		  "Service class":"Network Implementation",
+		  "Email list":"Null"
+},
+"13":{
+		 "Customer": "0000216002, 469657, FR",
+		 "Product":"1000 ASAM (Advanced Services Access Manager), 833-022515_00",
+		 "Classification":"Non-Sensitive Data",
+		 "Retention_days":"1",
+		 "Description":"test",
+		 "Purpose":"test",
+		 "Ticket#":"Null",
+		 "Application":"CARES",
+		 "Service class":"CARE",
+		 "Email list":"Null"
+	 
+	 
+},
+"14":{
+		"Customer": "0000223810, 469390, QA",
+		"Product": "1000 LGW (Line Gateway), 833-008253_00",
+		"Classification":"Non-Sensitive Data",
+		"Retention_days":"1",
+		"Description":"test",
+		"Purpose":"test",
+		"Ticket#":"Null",
+		"Application":"CARES",
+		"Service class":"Network Implementation",
+		"Email list":"Null"
+},
+	
+"15":{
+		"Customer": "0000237196, 468463, AT",
+		"Product": "1000 MM E10 (Multiservice Multimedia), 833-008636_00",
+		"Classification":"Non-Sensitive Data",
+		"Retention_days":"1",
+		"Description":"test",
+		"Purpose":"test",
+		"Ticket#":"Null",
+		"Application":"CARES",
+		"Service class":"NetworkPlanning and optimization",
+		"Email list":"Null"
+}
+}
+			

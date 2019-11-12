@@ -1,0 +1,84 @@
+CAPSREST.0.1    - basic functionality, hardcoded input, single file one part upload
+CAPSREST.0.2    - Add argparse
+CAPSREST.0.3    - Add handling for multiple files, introduce CAPSREST.files structure (for true multipart upload)
+CAPSREST.0.4    - Add proper XML creation, file/part structure handling
+                - s3_mp_upload_file function created for external use, s3_upload_part handled internally
+                - True multipart file upload (file chunking)
+CAPSREST.0.5    - Switch from CAPSV simple auth to HTTP signature auth
+CAPSREST.0.6    - Cleanup, commenting
+                - Found issue I need to remedy regarding use of paths in filenames given to CAPSCLI. Need to clean this up in next version. CAPSV unique identifier for file is ID, CAPSCLI unique identifier is filename with path. CAPSV allows us to include the path which breaks things.
+CAPSREST.0.7    - Added basic error checking, return codes
+                - tucked all s3 messaging under s3_mp_upload_file
+CAPSREST.0.8    - Basic logging implemented. Needs additional work: 
+                    - Pass in log file, config file
+                    - Add additional useful log output (already have some debug level)
+                    - Note: The HTTPConnection debug goes to stdout so if we want to push it to the log, we need a handler for that. This is for debug only so probably not useful.
+CAPSREST.0.9    - Fixed handling for application & ticket #
+                - Investigate: ticket # does not appear on download landing page
+                - Added config file for tuning
+CAPSREST.0.10   - Removed app field from POST /log/api/attachments (not needed, read-only field used by CAPSV)
+                - Fixed config parsing error triggered when --fiddler switch is set
+CAPSREST.0.11   - Logging update. Moved most info logs to debug level
+                - Cleaned up handling of arg variables
+CAPSCLI.0.12    - Combined CAPSREST.py into CAPSCLI.py
+                - Added very basic working indicator for uploads, also displays which file is currently being uploaded
+CAPSCLI.0.13    - Change use of customer.id and product.id to customer.id_cdb_id and product.id_cdb_id
+CAPSCLI.0.14    - Changed activity indicator (dots) to percentage which is updated each part upload.
+		- Removed dl command. Not needed at this time.
+		- Added del command (attachment deletion based on ticket). Implementation not complete (additional CAPS backend work required).
+		- Syntax cleanup (linter)
+CAPSCLI.0.15	- Improved error handling, added exit codes and additional logging
+CAPSCLI.0.16	- Add del funcitonality that deletes based on attachment ID
+CAPSCLI.0.17	- Add del functionality that deletes based on ticket app and ticket id
+CAPSCLI.0.18	- Fixed conf file check (it was checking when --config was not given)
+                  Fixed handling of mixing config files and command line switches
+CAPSCLI.0.19	- Added error handling to delete. New error codes:
+                  'NO_ATTACHMENTS':5,    
+                  'ATTACHMENT_FETCH_FAILURE':6,
+                  Added error codes for token authentication failure: TOKEN_REJECTED
+CAPSCLI.0.20    - Removed default value for CAPSCLI. Will enforce this in the backend with CAPS-493
+                - Enhanced delete: No longer delete attachments with retention time of 1 or less (change to 0 after CAPS-493)
+                	- Added possible outcomes for Enhanced delete
+                        - Fixed handling of case where there are no attachments to delete
+CAPSCLI.0.21	- Fixed upload progress % output
+		- Added upload measurements (file size, upload duration, rate) to stdout & log
+CAPSCLI.0.22	- Added control variable to switch between qa and production
+		- Updated CAPSREST.files comments
+		- Cleaned up code for filename/filename_base
+		- Condensed parameters for prepare attachment and now pass args to simplify
+		- Added error check for missing data in attachment create
+		- Added product version parameter
+CAPSCLI.0.23    - Changed productversion parameter to productrel
+		- product parameter is now mandatory
+		- productrel parameter is now optional
+		- Updated error output for attachment create, upload so more meaningful information is displayed.
+CAPSCLI.1.0	- Added -qa switch. Default usage will go to production
+CAPSCLI.1.1	- Changes made to support unicode characters. Inputs still need to be utf-8 encoded.
+CAPSCLI.1.1.1	- Fix to handle '~' in filenames
+CAPSCLI.1.1.2	- Fixed filehandle close calls
+CAPSCLI.1.2.0   - List and download commands added
+CAPSCLI.1.2.1   - Delete command now sets retention days to 0
+CAPSCLI.1.2.2   - Added Fiddler debug hook for download file messaging (dev debug use only)
+CAPSCLI.1.2.3   - Additional error handling for REST calls
+CAPSCLI.1.2.4   - Added throughput statistics for file download
+CAPSCLI.1.2.5   - Allow no ticket when ticketapp is "REFRA" (CAPS-1018)
+CAPSCLI.1.2.6   - Code refactor, fixed error handling for upload-only tokens
+CAPSCLI.1.2.7	- CAPS-1028: Allow additional email addresses to be submitted with attachment creation
+CAPSCLI.1.2.8	- CAPS-1117: DENA data tagging feature for CAPSCLI
+                  CAPS-916: CAPSCLI s3 v4 auth support (for internal support of S3 v4 authentication, this is transparent to the user)
+
+------
+ TODO
+------
+[Current Phase: 1]
+
+# Phase 2:
+#   Separate script for Python3
+#   Upload resume
+#       Write dict of part#/etag to file to resume between app instances
+#       output files for saving state
+#   Parallel multipart upload (phase 1?)
+#       Max concurrant part upload limit?
+#       Learn threading (if we don't want serialized uploads)
+#           I think I saw a limit of 2 concurrent parts, check that
+#               This might only apply to evaorateJS (might not have been limit but configuration)

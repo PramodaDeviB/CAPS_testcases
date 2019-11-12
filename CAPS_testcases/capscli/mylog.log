@@ -1,0 +1,24 @@
+2019-08-26 12:01:05,154 INFO:filesystem encoding: mbcs
+2019-08-26 12:01:05,154 INFO:[prepare_attachment] Called with {'customer': 469657, 'productrel': None, 'product': '134-080167_00', 'fiddler': False, 'log': 'mylog.log', 'classification': 12, 'emaillist': 'vishnukant.h@nokia.com', 'datatypecode': ' NETACT_CM', 'qa': True, 'cert': 'mytoken.tok', 'service': 'CARE', 'command': 'ul', 'purpose': 'Test Purpose', 'debug': False, 'ticketapp': 'REFRA', 'ticket': None, 'retention': 3, 'config': None, 'files': ['README'], 'description': 'Test Description'}
+2019-08-26 12:01:05,154 INFO:[prepare_attachment] Attachment_files, [{'name': 'README', 'size': 5750L}]
+2019-08-26 12:01:07,490 INFO:[create_attachment] Attachment created: d4b6e64bd081481089ab7812312c85df
+2019-08-26 12:01:07,497 INFO:[s3_mp_upload_file] Preparing upload for README
+2019-08-26 12:01:07,497 INFO:[s3_mp_upload_init] Initializing multipart upload for README
+2019-08-26 12:01:10,203 INFO:[s3_mp_upload_file] Upload started for 2~js-z3f_PCT2pGtTbF3oA4msvNSRO43Kd4b6e64bd081481089ab7812312c85df/README
+2019-08-26 12:01:10,203 INFO:[s3_mp_upload_file] Upload started for README
+2019-08-26 12:01:13,256 INFO:[s3_mp_upload_file] Upload completed for README. [Size:5750 bytes; Duration:03.05s; Rate:00.00MB/s]
+2019-08-26 12:01:13,257 INFO:[s3_mp_upload_complete] Completing multipart upload
+2019-08-26 12:01:17,822 INFO:Nokia user download link : https://capsv.nokia.com/93f6cc8e/downloadattachment?id=d4b6e64bd081481089ab7812312c85df
+2019-08-26 12:01:17,828 INFO:External user download link: https://capsv.nokia.com/93f6cc8e/external/downloadattachment?id=d4b6e64bd081481089ab7812312c85df
+2019-08-27 12:24:43,966 INFO:filesystem encoding: mbcs
+2019-08-27 12:24:43,973 INFO:[prepare_attachment] Called with {'customer': 469657, 'productrel': None, 'product': '134-080167_00', 'fiddler': False, 'log': 'mylog.log', 'classification': 12, 'emaillist': 'vishnukant.h@nokia.com', 'datatypecode': ' NETACT_CM', 'qa': True, 'cert': 'mytoken.tok', 'service': 'CARE', 'command': 'ul', 'purpose': 'Test Purpose', 'debug': False, 'ticketapp': 'REFRA', 'ticket': None, 'retention': 3, 'config': None, 'files': ['test_files/README'], 'description': 'Test Description'}
+2019-08-27 12:24:43,973 INFO:[prepare_attachment] Attachment_files, [{'name': 'README', 'size': 5750L}]
+2019-08-27 12:24:46,082 INFO:[create_attachment] Attachment created: a1ee8ad514224542bdf3fb48c663808b
+2019-08-27 12:24:46,082 INFO:[s3_mp_upload_file] Preparing upload for test_files/README
+2019-08-27 12:24:46,082 INFO:[s3_mp_upload_init] Initializing multipart upload for README
+2019-08-27 12:24:48,765 INFO:[s3_mp_upload_file] Upload started for 2~dugSLQaEuJufYohCjwbePnGimK0Wf-Ha1ee8ad514224542bdf3fb48c663808b/README
+2019-08-27 12:24:48,773 INFO:[s3_mp_upload_file] Upload started for test_files/README
+2019-08-27 12:24:51,418 INFO:[s3_mp_upload_file] Upload completed for test_files/README. [Size:5750 bytes; Duration:02.64s; Rate:00.00MB/s]
+2019-08-27 12:24:51,421 INFO:[s3_mp_upload_complete] Completing multipart upload
+2019-08-27 12:24:57,711 INFO:Nokia user download link : https://capsv.nokia.com/93f6cc8e/downloadattachment?id=a1ee8ad514224542bdf3fb48c663808b
+2019-08-27 12:24:57,719 INFO:External user download link: https://capsv.nokia.com/93f6cc8e/external/downloadattachment?id=a1ee8ad514224542bdf3fb48c663808b

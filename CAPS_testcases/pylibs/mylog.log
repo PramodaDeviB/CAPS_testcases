@@ -1,0 +1,58 @@
+2019-08-26 11:49:01,400 INFO:filesystem encoding: mbcs
+2019-08-26 11:49:01,400 INFO:[prepare_attachment] Called with {'customer': 469657, 'productrel': None, 'product': '134-080167_00', 'fiddler': False, 'log': 'mylog.log', 'classification': 12, 'emaillist': 'vishnukant.h@nokia.com', 'datatypecode': ' NETACT_CM', 'qa': True, 'cert': 'mytoken.tok', 'service': 'CARE', 'command': 'ul', 'purpose': 'Test Purpose', 'debug': False, 'ticketapp': 'REFRA', 'ticket': None, 'retention': 3, 'config': None, 'files': ['test.txt'], 'description': 'Test Description'}
+2019-08-26 11:49:01,401 INFO:[prepare_attachment] Attachment_files, [{'name': 'test.txt', 'size': 0L}]
+2019-08-26 11:49:03,545 INFO:[create_attachment] Attachment created: 083398ab2e224deeb86f0dff7c370120
+2019-08-26 11:49:03,545 INFO:[s3_mp_upload_file] Preparing upload for test.txt
+2019-08-26 11:49:03,545 INFO:[s3_mp_upload_init] Initializing multipart upload for test.txt
+2019-08-26 11:49:06,361 INFO:[s3_mp_upload_file] Upload started for 2~fAIdlkDoqEXEsP0fT-1l1KtXalLaQOe083398ab2e224deeb86f0dff7c370120/test.txt
+2019-08-26 11:49:06,364 INFO:[s3_mp_upload_file] Upload started for test.txt
+2019-08-26 11:49:06,398 INFO:[s3_mp_upload_file] Upload completed for test.txt. [Size:0 bytes; Duration:00.03s; Rate:00.00MB/s]
+2019-08-26 11:49:06,400 INFO:[s3_mp_upload_complete] Completing multipart upload
+2019-08-26 11:49:08,749 ERROR:DEBUGGING INFO
+2019-08-26 11:49:08,749 ERROR:http_status_code:400
+2019-08-26 11:49:08,750 ERROR:http_status_text:bad_request
+2019-08-26 11:49:08,750 ERROR:http_text:<?xml version="1.0" encoding="UTF-8"?><Error><Code>MalformedXML</Code><BucketName>capsvtest1</BucketName><RequestId>tx000000000000001c3e785-005d6379dc-2f5a77d56-default</RequestId><HostId>2f5a77d56-default-default</HostId></Error>
+2019-08-26 11:49:08,750 ERROR:http_json:None
+2019-08-26 11:49:08,750 ERROR:/DEBUGGING INFO
+2019-08-26 11:49:08,750 ERROR:ERROR: Error during upload [130]
+2019-08-26 11:50:34,075 INFO:filesystem encoding: mbcs
+2019-08-26 11:50:34,075 INFO:[prepare_attachment] Called with {'customer': 469657, 'productrel': None, 'product': '134-080167_00', 'fiddler': False, 'log': 'mylog.log', 'classification': 12, 'emaillist': 'vishnukant.h@nokia.com', 'datatypecode': ' NETACT_CM', 'qa': True, 'cert': 'mytoken.tok', 'service': 'CARE', 'command': 'ul', 'purpose': 'Test Purpose', 'debug': False, 'ticketapp': 'REFRA', 'ticket': None, 'retention': 3, 'config': None, 'files': ['test.txt'], 'description': 'Test Description'}
+2019-08-26 11:50:34,075 INFO:[prepare_attachment] Attachment_files, [{'name': 'test.txt', 'size': 0L}]
+2019-08-26 11:50:36,072 INFO:[create_attachment] Attachment created: 5715101635994ef8bfb6c5add4a28b06
+2019-08-26 11:50:36,073 INFO:[s3_mp_upload_file] Preparing upload for test.txt
+2019-08-26 11:50:36,073 INFO:[s3_mp_upload_init] Initializing multipart upload for test.txt
+2019-08-26 11:50:38,608 INFO:[s3_mp_upload_file] Upload started for 2~KOhbampR2Ef3oC0rzvXFSNA0hhC0EXz5715101635994ef8bfb6c5add4a28b06/test.txt
+2019-08-26 11:50:38,611 INFO:[s3_mp_upload_file] Upload started for test.txt
+2019-08-26 11:50:38,650 INFO:[s3_mp_upload_file] Upload completed for test.txt. [Size:0 bytes; Duration:00.04s; Rate:00.00MB/s]
+2019-08-26 11:50:38,651 INFO:[s3_mp_upload_complete] Completing multipart upload
+2019-08-26 11:50:40,983 ERROR:DEBUGGING INFO
+2019-08-26 11:50:40,983 ERROR:http_status_code:400
+2019-08-26 11:50:40,983 ERROR:http_status_text:bad_request
+2019-08-26 11:50:40,983 ERROR:http_text:<?xml version="1.0" encoding="UTF-8"?><Error><Code>MalformedXML</Code><BucketName>capsvtest1</BucketName><RequestId>tx000000000000002048510-005d637a38-2f5a777be-default</RequestId><HostId>2f5a777be-default-default</HostId></Error>
+2019-08-26 11:50:40,983 ERROR:http_json:None
+2019-08-26 11:50:40,983 ERROR:/DEBUGGING INFO
+2019-08-26 11:50:40,983 ERROR:ERROR: Error during upload [130]
+2019-08-26 11:55:07,723 INFO:filesystem encoding: mbcs
+2019-08-26 11:55:07,723 INFO:[prepare_attachment] Called with {'customer': 469657, 'productrel': None, 'product': '134-080167_00', 'fiddler': False, 'log': 'mylog.log', 'classification': 12, 'emaillist': 'vishnukant.h@nokia.com', 'datatypecode': ' NETACT_CM', 'qa': True, 'cert': 'mytoken.tok', 'service': 'CARE', 'command': 'ul', 'purpose': 'Test Purpose', 'debug': False, 'ticketapp': 'REFRA', 'ticket': None, 'retention': 3, 'config': None, 'files': ['README'], 'description': 'Test Description'}
+2019-08-26 11:55:07,723 INFO:[prepare_attachment] Attachment_files, [{'name': 'README', 'size': 5750L}]
+2019-08-26 11:55:09,332 ERROR:ERROR: Token rejected. Please get a new token.
+2019-08-26 11:55:09,334 ERROR:DEBUGGING INFO
+2019-08-26 11:55:09,334 ERROR:http_status_code:403
+2019-08-26 11:55:09,334 ERROR:http_status_text:forbidden
+2019-08-26 11:55:09,335 ERROR:http_text:{"error":{"code":403,"message":"Invalid keyId, algorithm, or signature.","url":"/xe4dd3ac/Privacy_Restricted_Data_Rules.pdf"}}
+2019-08-26 11:55:09,335 ERROR:http_json:{u'error': {u'url': u'/xe4dd3ac/Privacy_Restricted_Data_Rules.pdf', u'message': u'Invalid keyId, algorithm, or signature.', u'code': 403}}
+2019-08-26 11:55:09,335 ERROR:/DEBUGGING INFO
+2019-08-26 11:55:09,335 ERROR:ERROR: Error during create attachment [7]
+2019-08-26 11:55:09,335 ERROR:CAPS Response: Invalid keyId, algorithm, or signature.
+2019-08-26 11:55:56,312 INFO:filesystem encoding: mbcs
+2019-08-26 11:55:56,312 INFO:[prepare_attachment] Called with {'customer': 469657, 'productrel': None, 'product': '134-080167_00', 'fiddler': False, 'log': 'mylog.log', 'classification': 12, 'emaillist': 'vishnukant.h@nokia.com', 'datatypecode': ' NETACT_CM', 'qa': True, 'cert': 'mytoken.tok', 'service': 'CARE', 'command': 'ul', 'purpose': 'Test Purpose', 'debug': False, 'ticketapp': 'REFRA', 'ticket': None, 'retention': 3, 'config': None, 'files': ['README'], 'description': 'Test Description'}
+2019-08-26 11:55:56,312 INFO:[prepare_attachment] Attachment_files, [{'name': 'README', 'size': 5750L}]
+2019-08-26 11:55:58,316 INFO:[create_attachment] Attachment created: b637605fcb6d492b999377e7d566a18b
+2019-08-26 11:55:58,316 INFO:[s3_mp_upload_file] Preparing upload for README
+2019-08-26 11:55:58,318 INFO:[s3_mp_upload_init] Initializing multipart upload for README
+2019-08-26 11:56:00,900 INFO:[s3_mp_upload_file] Upload started for 2~EInhM5VkMarsYbB4EqeMhmz-T_Ogrdmb637605fcb6d492b999377e7d566a18b/README
+2019-08-26 11:56:00,910 INFO:[s3_mp_upload_file] Upload started for README
+2019-08-26 11:56:03,684 INFO:[s3_mp_upload_file] Upload completed for README. [Size:5750 bytes; Duration:02.77s; Rate:00.00MB/s]
+2019-08-26 11:56:03,684 INFO:[s3_mp_upload_complete] Completing multipart upload
+2019-08-26 11:56:08,180 INFO:Nokia user download link : https://capsv.nokia.com/93f6cc8e/downloadattachment?id=b637605fcb6d492b999377e7d566a18b
+2019-08-26 11:56:08,180 INFO:External user download link: https://capsv.nokia.com/93f6cc8e/external/downloadattachment?id=b637605fcb6d492b999377e7d566a18b

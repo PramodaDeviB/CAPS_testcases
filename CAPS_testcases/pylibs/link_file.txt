@@ -1,0 +1,118 @@
+simple upload
+______________________________________________________________________________________________________________________________________
+Uploading capscli/test_files/README: 00.00%Uploading capscli/test_files/README: 100.00%Uploading capscli/test_files/README: Complete. [Size:5750 bytes; Duration:02.52s; Rate:00.00MB/s]
+
+Nokia user download link : https://capsv.nokia.com/93f6cc8e/downloadattachment?id=fd4363a1d0f844a1aab4b4c261bb0c10
+External user download link: https://capsv.nokia.com/93f6cc8e/external/downloadattachment?id=fd4363a1d0f844a1aab4b4c261bb0c10
+______________________________________________________________________________________________________________________________________
+load balancing
+______________________________________________________________________________________________________________________________________
+Uploading capscli/test_files/README: 00.00%Uploading capscli/test_files/README: 100.00%Uploading capscli/test_files/README: Complete. [Size:5750 bytes; Duration:02.97s; Rate:00.00MB/s]
+Uploading capscli/test_files/test.txt: 00.00%Uploading capscli/test_files/test.txt: 100.00%Uploading capscli/test_files/test.txt: Complete. [Size:11 bytes; Duration:02.67s; Rate:00.00MB/s]
+Uploading capscli/test_files/test1.txt: 00.00%Uploading capscli/test_files/test1.txt: 100.00%Uploading capscli/test_files/test1.txt: Complete. [Size:5 bytes; Duration:02.78s; Rate:00.00MB/s]
+Uploading capscli/test_files/test2.txt: 00.00%Uploading capscli/test_files/test2.txt: 100.00%Uploading capscli/test_files/test2.txt: Complete. [Size:7 bytes; Duration:02.72s; Rate:00.00MB/s]
+Uploading capscli/test_files/test3.txt: 00.00%Uploading capscli/test_files/test3.txt: 100.00%Uploading capscli/test_files/test3.txt: Complete. [Size:7 bytes; Duration:05.35s; Rate:00.00MB/s]
+Uploading capscli/test_files/test4.txt: 00.00%Uploading capscli/test_files/test4.txt: 100.00%Uploading capscli/test_files/test4.txt: Complete. [Size:5 bytes; Duration:02.78s; Rate:00.00MB/s]
+
+Nokia user download link : https://capsv.nokia.com/93f6cc8e/downloadattachment?id=13a643265e224e7c9b25a7820176c53d
+External user download link: https://capsv.nokia.com/93f6cc8e/external/downloadattachment?id=13a643265e224e7c9b25a7820176c53d
+______________________________________________________________________________________________________________________________________
+upload multiple file
+______________________________________________________________________________________________________________________________________
+Uploading capscli/test_files/README: 00.00%Uploading capscli/test_files/README: 100.00%Uploading capscli/test_files/README: Complete. [Size:5750 bytes; Duration:02.58s; Rate:00.00MB/s]
+Uploading capscli/test_files/test.txt: 00.00%Uploading capscli/test_files/test.txt: 100.00%Uploading capscli/test_files/test.txt: Complete. [Size:11 bytes; Duration:02.33s; Rate:00.00MB/s]
+
+Nokia user download link : https://capsv.nokia.com/93f6cc8e/downloadattachment?id=0dcdf4b440f44bd494d955e420153e54
+External user download link: https://capsv.nokia.com/93f6cc8e/external/downloadattachment?id=0dcdf4b440f44bd494d955e420153e54
+______________________________________________________________________________________________________________________________________
+upload file with multiple email_list
+______________________________________________________________________________________________________________________________________
+Uploading capscli/test_files/README: 00.00%Uploading capscli/test_files/README: 100.00%Uploading capscli/test_files/README: Complete. [Size:5750 bytes; Duration:02.76s; Rate:00.00MB/s]
+
+Nokia user download link : https://capsv.nokia.com/93f6cc8e/downloadattachment?id=63a483a031054779a5b751e10e7c50f1
+External user download link: https://capsv.nokia.com/93f6cc8e/external/downloadattachment?id=63a483a031054779a5b751e10e7c50f1
+______________________________________________________________________________________________________________________________________
+File name with special character
+______________________________________________________________________________________________________________________________________
+Uploading capscli/test_files/special+char-.txt: 00.00%Uploading capscli/test_files/special+char-.txt: 100.00%Uploading capscli/test_files/special+char-.txt: Complete. [Size:17 bytes; Duration:02.42s; Rate:00.00MB/s]
+
+Nokia user download link : https://capsv.nokia.com/93f6cc8e/downloadattachment?id=7cc044d64dcf4f899732bef700d33dae
+External user download link: https://capsv.nokia.com/93f6cc8e/external/downloadattachment?id=7cc044d64dcf4f899732bef700d33dae
+______________________________________________________________________________________________________________________________________
+upload file without refra field
+______________________________________________________________________________________________________________________________________
+Uploading capscli/test_files/test.txt: 00.00%Uploading capscli/test_files/test.txt: 100.00%Uploading capscli/test_files/test.txt: Complete. [Size:11 bytes; Duration:02.35s; Rate:00.00MB/s]
+
+Nokia user download link : https://capsv.nokia.com/93f6cc8e/downloadattachment?id=b270adbc15094f1c87c8ea38018eb133
+External user download link: https://capsv.nokia.com/93f6cc8e/external/downloadattachment?id=b270adbc15094f1c87c8ea38018eb133
+______________________________________________________________________________________________________________________________________
+Bharat Sanchar Nigam Limited, 457799, IN
+______________________________________________________________________________________________________________________________________
+https://capsv.nokia.com/93f6cc8e/downloadattachment?id=7c6ac1dccea54f979542d6baab508c61
+______________________________________________________________________________________________________________________________________
+simple upload
+______________________________________________________________________________________________________________________________________
+Uploading capscli/test_files/README: 00.00%Uploading capscli/test_files/README: 100.00%Uploading capscli/test_files/README: Complete. [Size:5750 bytes; Duration:02.43s; Rate:00.00MB/s]
+
+Nokia user download link : https://capsv.nokia.com/93f6cc8e/downloadattachment?id=90022602df344a639215d69a76cca6da
+External user download link: https://capsv.nokia.com/93f6cc8e/external/downloadattachment?id=90022602df344a639215d69a76cca6da
+______________________________________________________________________________________________________________________________________
+load balancing
+______________________________________________________________________________________________________________________________________
+Uploading capscli/test_files/README: 00.00%Uploading capscli/test_files/README: 100.00%Uploading capscli/test_files/README: Complete. [Size:5750 bytes; Duration:03.08s; Rate:00.00MB/s]
+Uploading capscli/test_files/test.txt: 00.00%Uploading capscli/test_files/test.txt: 100.00%Uploading capscli/test_files/test.txt: Complete. [Size:11 bytes; Duration:02.96s; Rate:00.00MB/s]
+Uploading capscli/test_files/test1.txt: 00.00%Uploading capscli/test_files/test1.txt: 100.00%Uploading capscli/test_files/test1.txt: Complete. [Size:5 bytes; Duration:02.75s; Rate:00.00MB/s]
+Uploading capscli/test_files/test2.txt: 00.00%Uploading capscli/test_files/test2.txt: 100.00%Uploading capscli/test_files/test2.txt: Complete. [Size:7 bytes; Duration:02.87s; Rate:00.00MB/s]
+Uploading capscli/test_files/test3.txt: 00.00%Uploading capscli/test_files/test3.txt: 100.00%Uploading capscli/test_files/test3.txt: Complete. [Size:7 bytes; Duration:02.78s; Rate:00.00MB/s]
+Uploading capscli/test_files/test4.txt: 00.00%Uploading capscli/test_files/test4.txt: 100.00%Uploading capscli/test_files/test4.txt: Complete. [Size:5 bytes; Duration:02.76s; Rate:00.00MB/s]
+
+Nokia user download link : https://capsv.nokia.com/93f6cc8e/downloadattachment?id=e293b606590541bb8d5e67388f82f6fd
+External user download link: https://capsv.nokia.com/93f6cc8e/external/downloadattachment?id=e293b606590541bb8d5e67388f82f6fd
+______________________________________________________________________________________________________________________________________
+upload multiple file
+______________________________________________________________________________________________________________________________________
+Uploading capscli/test_files/README: 00.00%Uploading capscli/test_files/README: 100.00%Uploading capscli/test_files/README: Complete. [Size:5750 bytes; Duration:02.37s; Rate:00.00MB/s]
+Uploading capscli/test_files/test.txt: 00.00%Uploading capscli/test_files/test.txt: 100.00%Uploading capscli/test_files/test.txt: Complete. [Size:11 bytes; Duration:02.20s; Rate:00.00MB/s]
+
+Nokia user download link : https://capsv.nokia.com/93f6cc8e/downloadattachment?id=af1c158076db411295facebc1c7bbccb
+External user download link: https://capsv.nokia.com/93f6cc8e/external/downloadattachment?id=af1c158076db411295facebc1c7bbccb
+______________________________________________________________________________________________________________________________________
+upload file with multiple email_list
+______________________________________________________________________________________________________________________________________
+Uploading capscli/test_files/README: 00.00%Uploading capscli/test_files/README: 100.00%Uploading capscli/test_files/README: Complete. [Size:5750 bytes; Duration:02.65s; Rate:00.00MB/s]
+
+Nokia user download link : https://capsv.nokia.com/93f6cc8e/downloadattachment?id=f6579b6bd35e4d1eac583da5f5eebf24
+External user download link: https://capsv.nokia.com/93f6cc8e/external/downloadattachment?id=f6579b6bd35e4d1eac583da5f5eebf24
+______________________________________________________________________________________________________________________________________
+File name with special character
+______________________________________________________________________________________________________________________________________
+Uploading capscli/test_files/special+char-.txt: 00.00%Uploading capscli/test_files/special+char-.txt: 100.00%Uploading capscli/test_files/special+char-.txt: Complete. [Size:17 bytes; Duration:02.26s; Rate:00.00MB/s]
+ERROR: Error during upload complete [1]
+Traceback (most recent call last):
+  File "capscli/CAPSCLI.py", line 2165, in <module>
+    upload()
+  File "capscli/CAPSCLI.py", line 1973, in upload
+    if 'error' in c.http_json:
+TypeError: argument of type 'NoneType' is not iterable
+______________________________________________________________________________________________________________________________________
+upload file without refra field
+______________________________________________________________________________________________________________________________________
+File name with special character
+______________________________________________________________________________________________________________________________________
+Uploading capscli/test_files/special+char-.txt: 00.00%Uploading capscli/test_files/special+char-.txt: 100.00%Uploading capscli/test_files/special+char-.txt: Complete. [Size:17 bytes; Duration:02.29s; Rate:00.00MB/s]
+
+Nokia user download link : https://capsv.nokia.com/93f6cc8e/downloadattachment?id=60dac67970234cc1981e82561b77d436
+External user download link: https://capsv.nokia.com/93f6cc8e/external/downloadattachment?id=60dac67970234cc1981e82561b77d436
+______________________________________________________________________________________________________________________________________
+load balancing
+______________________________________________________________________________________________________________________________________
+Uploading capscli/test_files/README: 00.00%Uploading capscli/test_files/README: 100.00%Uploading capscli/test_files/README: Complete. [Size:5750 bytes; Duration:03.77s; Rate:00.00MB/s]
+Uploading capscli/test_files/test.txt: 00.00%Uploading capscli/test_files/test.txt: 100.00%Uploading capscli/test_files/test.txt: Complete. [Size:11 bytes; Duration:03.39s; Rate:00.00MB/s]
+Uploading capscli/test_files/test1.txt: 00.00%Uploading capscli/test_files/test1.txt: 100.00%Uploading capscli/test_files/test1.txt: Complete. [Size:5 bytes; Duration:03.72s; Rate:00.00MB/s]
+Uploading capscli/test_files/test2.txt: 00.00%Uploading capscli/test_files/test2.txt: 100.00%Uploading capscli/test_files/test2.txt: Complete. [Size:7 bytes; Duration:03.28s; Rate:00.00MB/s]
+Uploading capscli/test_files/test3.txt: 00.00%Uploading capscli/test_files/test3.txt: 100.00%Uploading capscli/test_files/test3.txt: Complete. [Size:7 bytes; Duration:03.18s; Rate:00.00MB/s]
+Uploading capscli/test_files/test4.txt: 00.00%Uploading capscli/test_files/test4.txt: 100.00%Uploading capscli/test_files/test4.txt: Complete. [Size:5 bytes; Duration:03.25s; Rate:00.00MB/s]
+
+Nokia user download link : https://capsv.nokia.com/93f6cc8e/downloadattachment?id=73ea64ef3fe04383a355766ea0f512d8
+External user download link: https://capsv.nokia.com/93f6cc8e/external/downloadattachment?id=73ea64ef3fe04383a355766ea0f512d8
+______________________________________________________________________________________________________________________________________

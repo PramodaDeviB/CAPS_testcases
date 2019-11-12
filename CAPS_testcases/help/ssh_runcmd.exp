@@ -1,0 +1,26 @@
+#!/usr/bin/expect -f
+set timeout 100
+set username [lindex $argv 0]
+set password [lindex $argv 1]
+set hostname [lindex $argv 2]
+set command [lindex $argv 3]
+log_user 0
+
+if {[llength $argv] == 0} {
+  send_user "Usage: scriptname username \'password\' hostname \'command\'\n"
+  exit 1
+}
+
+spawn ssh -q -o StrictHostKeyChecking=no $username@$hostname $command
+
+expect {
+      "yes/no" {
+            send "yes\r"
+            exp_continue
+      }
+      -nocase "password" {
+            send "$password\r"
+            sleep 3
+            interact
+      }
+}
